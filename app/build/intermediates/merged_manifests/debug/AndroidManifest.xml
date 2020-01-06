@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.syn"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.syn.Main_Activity" />
+        <activity android:name="com.example.syn.Main_activity" />
+        <activity android:name="com.example.syn.Main_activity_1" />
+        <activity android:name="com.example.syn.MainActivity" />
+        <activity android:name="com.example.syn.Transfer" />
+        <activity android:name="com.example.syn.Settings" />
+        <activity android:name="com.example.syn.ScanAndPay" />
+        <activity android:name="com.example.syn.Profile" />
+        <activity android:name="com.example.syn.Investment" />
+        <activity android:name="com.example.syn.Health" />
+        <activity android:name="com.example.syn.Deposit" />
+        <activity android:name="com.example.syn.Chatbot" />
+        <activity android:name="com.example.syn.CHatbot" />
+        <activity android:name="com.example.syn.Cardbtn4" />
+        <activity android:name="com.example.syn.Cardbtn3" />
+        <activity android:name="com.example.syn.Cardbtn2" />
+        <activity android:name="com.example.syn.Cardbtn1" />
+        <activity android:name="com.example.syn.Card" />
+        <activity android:name="com.example.syn.Btn1" />
+        <activity
+            android:name="com.example.syn.ui.login.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.syn.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
