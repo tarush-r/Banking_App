@@ -14,7 +14,7 @@ GUI for a banking app.
 
 <img src="https://github.com/tarush-r/Top-Down-Shooter-Game/blob/master/Photos/gif.gif">
  Enemy in level 1
-<img src="https://github.com/tarush-r/Banking_App/screenshots/mainscreen.jpg" width="600">
+<img src="screenshots/mainscreen.jpg" width="30%" height="30%">
  Boss Enemy in level 1
 <img src="https://github.com/tarush-r/Top-Down-Shooter-Game/blob/master/Photos/boss1.jpg" width="600">
 Enemy in level 2
